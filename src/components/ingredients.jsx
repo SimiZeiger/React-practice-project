@@ -1,6 +1,6 @@
 import React from "react";
 
-const ingredients = () => {
+const Ingredients = () => {
     return(
         <ul>
             <li>2 sticks margerine</li>
@@ -15,4 +15,4 @@ const ingredients = () => {
         </ul>
     )
 }
-export default ingredients;
+export default Ingredients;

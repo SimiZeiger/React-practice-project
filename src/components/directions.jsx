@@ -1,6 +1,6 @@
 import React from "react";
 
-const directions = () => {
+const Directions = () => {
     return(
         <ol>
             <li>Preheat oven to 350.</li>
@@ -12,4 +12,4 @@ const directions = () => {
         </ol>
     )
 }
-export default directions;
+export default Directions;
