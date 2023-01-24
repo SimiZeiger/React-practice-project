@@ -7,12 +7,13 @@ import Directions from "./components/Directions";
 
 const App= () => {
     return(
-        <article>
-            <h1>Recipe:</h1>
+        <div class="position-relative">
+            
             <RecipeTitle />
             <Ingredients />
             <Directions />
-        </article>
+            
+        </div>
     )
 }
 export default App;
